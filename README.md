@@ -2,6 +2,9 @@
 
 Built with LangChain, Google Gemini & Streamlit
 
+🚀 **Live Demo:**  
+👉 https://ai-resume-analyzerusinglangchain-kbdhogmnbkqjcvqfuqtoab.streamlit.app/
+
 🎥 Demo Video: https://drive.google.com/file/d/1nkm5GVJUvKZMqQ7fM8EmZ51CQWVInKBe/view?usp=sharing
 
 ## 📌 Project Overview
