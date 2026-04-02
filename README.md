@@ -50,16 +50,15 @@ To address these issues, I built an intelligent pipeline using LangChain and Goo
 
 ## 📂 Project Structure
 
-````markdown
-
+````
 AI-Resume-Analyzer/
 │
 ├── app.py              # Streamlit app
 ├── requirements.txt    # Dependencies
 ├── .env                # API keys
 ├── README.md           # Documentation
+````
 
-```
 
 ## 🔑 Environment Setup
 
