@@ -14,48 +14,48 @@ To solve this problem, I developed an AI-based system that can automatically rea
 
 Handling resumes at scale comes with several challenges:
 
-Processing hundreds of resumes manually is time-consuming
-Resume formats vary (PDF, DOCX, different layouts)
-Extracting key details like skills and contact info is inconsistent
-No structured format makes filtering and analysis difficult
+- Processing hundreds of resumes manually is time-consuming
+- Resume formats vary (PDF, DOCX, different layouts)
+- Extracting key details like skills and contact info is inconsistent
+- No structured format makes filtering and analysis difficult
 
 ## 💡 Solution Approach
 
 To address these issues, I built an intelligent pipeline using LangChain and Google Gemini that:
 
-Accepts resumes in bulk through a ZIP file
-Extracts text from both PDF and DOCX formats
-Uses an LLM to understand and structure the content
-Ensures consistent output using a predefined schema
-Converts all extracted data into a CSV file for easy usage
+- Accepts resumes in bulk through a ZIP file
+- Extracts text from both PDF and DOCX formats
+- Uses an LLM to understand and structure the content
+- Ensures consistent output using a predefined schema
+- Converts all extracted data into a CSV file for easy usage
 
 ## 🚀 Key Features
 
-Upload a ZIP file containing multiple resumes
-Automatically processes PDF and Word documents
-Extracts important candidate details using AI
-Converts unstructured data into structured format
-Generates a downloadable CSV file via Streamlit UI
+- Upload a ZIP file containing multiple resumes
+- Automatically processes PDF and Word documents
+- Extracts important candidate details using AI
+- Converts unstructured data into structured format
+- Generates a downloadable CSV file via Streamlit UI
 
 ## 🛠️ Tech Stack
 
-Python – Core programming
-Streamlit – User interface
-LangChain – LLM workflow management
-Google Gemini – Resume understanding
-Pydantic / TypedDict – Structured output
-pypdf – PDF parsing
-python-docx – DOCX parsing
-Pandas – Data processing and CSV generation
+- Python – Core programming
+- Streamlit – User interface
+- LangChain – LLM workflow management
+- Google Gemini – Resume understanding
+- Pydantic / TypedDict – Structured output
+- pypdf – PDF parsing
+- python-docx – DOCX parsing
+- Pandas – Data processing and CSV generation
 
 ## 📂 Project Structure
 
-AI-Resume-Analyzer/
+(AI-Resume-Analyzer/
 │
 ├── app.py              # Streamlit app
 ├── requirements.txt   # Dependencies
 ├── .env               # API keys 
-├── README.md          # Documentation
+├── README.md          # Documentation)
 
 
 ## 🔑 Environment Setup
